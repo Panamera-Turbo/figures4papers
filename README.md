@@ -36,7 +36,7 @@ These figures were made partially in Python. I included them to acknowledge the 
 
 ## LLM skill integration (some credits to my friend [Shan Chen](https://shanchen.dev/))
 
-The **scientific figure making** skill lives in `scientific-figure-making/`. Demo figures live in `assets/`; project-specific scripts and outputs live in `figure_*/`.
+The **scientific figure making** skill lives in `scientific-figure-making/`. Demo figures live in `assets/`. Project-specific scripts and outputs live in `figure_*/`.
 
 ### Skill folder hierarchy
 
@@ -50,8 +50,6 @@ scientific-figure-making/
     ├── design-theory.md                  # Style rationale and design principles
     └── tutorials.md                      # Step-by-step guides
 ```
-
-That folder is docs-only (no scripts); implement from the API or copy patterns from the `figure_*` projects.
 
 ### Using this skill in an AI coding agent
 
@@ -76,7 +74,7 @@ Use the Scientific Figure Making skill conventions from:
 - scientific-figure-making/references/design-theory.md
 - scientific-figure-making/references/api.md (palette, helpers, export)
 
-Implement or adapt the patterns (apply_publication_style, make_* helpers, finalize_figure); see figure_* folders for reference scripts.
+Implement or adapt the patterns (apply_publication_style, make_* helpers, finalize_figure). See figure_* folders for reference scripts.
 Input data: <describe your data or paste arrays>.
 Output files: <name>.png and <name>.pdf.
 Keep the style consistent with this repository.
